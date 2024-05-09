@@ -84,6 +84,6 @@ describe('action', () => {
       1,
       'milliseconds not a number'
     )
-    expect(errorMock).not.toHaveBeenCalled()
+    expect(errorMock).toHaveBeenCalled()
   })
 })
